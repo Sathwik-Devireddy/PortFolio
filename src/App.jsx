@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import CustomCursor from "./components/CustomCursor";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <div></div>
       <Header />
       <Hero />
+      <CustomCursor />
     </>
   );
 }
