@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -10,6 +9,8 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import ProgressBar from "./components/ProgressBar";
 export default function App() {
   useEffect(() => {
     //very very very imp
@@ -28,6 +29,8 @@ export default function App() {
       <About />
       <ProjectSection />
       <ContactSection />
+      <Footer />
+      <ProgressBar />
     </>
   );
 }
