@@ -21,7 +21,8 @@ const Footer = () => {
               </h3>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/Sathwik-Devireddy"
+                  target="_blank"
                   className="text-gray-700 hover:text-violet-300 transition-colors"
                 >
                   <FiGithub className="w-5 h-5" />
@@ -33,7 +34,8 @@ const Footer = () => {
                   <FiTwitter className="w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/sathwik-devireddy-b5b8a72b5/"
+                  target="_blank"
                   className="text-gray-700 hover:text-violet-300 transition-colors"
                 >
                   <FiLinkedin className="w-5 h-5" />
